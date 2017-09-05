@@ -51,7 +51,7 @@
     <li><a href="{{ theme_barlink_github }}/tree/{{ release }}">{{ version }}</a></li>
     <li style="color: {{ theme_headlinkcolor }}">&nbsp;&middot;&nbsp;</li>
     <li class="nav-item nav-item-0"><a href="{{ pathto(theme_roottarget) }}">
-        <span style="font-family: Optima, sans-serif;">P<span style="font-size: 82%;">SI</span>4</span>
+        {{ theme_barlink_pkgnamehtml }}
         </a>{{ reldelim1 }}</li>
 {% endblock %}
 {%- for parent in parents %}
