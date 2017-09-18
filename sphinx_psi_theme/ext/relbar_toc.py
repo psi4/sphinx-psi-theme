@@ -26,7 +26,7 @@
 # @END LICENSE
 #
 
-"""sphinx-psi4-theme.ext.relbar_toc - adds TOC entry and icons to relbar.
+"""sphinx-psi-theme.ext.relbar_toc - adds TOC entry and icons to relbar.
 Modeled from cloud_sptheme.ext.relbar_toc
 
 """
