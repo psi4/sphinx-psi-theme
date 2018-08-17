@@ -8,3 +8,4 @@ Sphinx theme (extension to cloud) for Psi4 documentation
 ```
 conda install sphinx-psi-theme cloud_sptheme sphinx-automodapi graphviz python-graphviz sphinx -c conda-forge -c psi4
 ```
+[![Anaconda-Server Badge](https://anaconda.org/psi4/sphinx-psi-theme/badges/version.svg)](https://anaconda.org/psi4/sphinx-psi-theme)
