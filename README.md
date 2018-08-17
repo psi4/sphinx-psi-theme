@@ -6,6 +6,5 @@ Sphinx theme (extension to cloud) for Psi4 documentation
 * Practically, good stuff to install (including this) is:
 
 ```
-conda install sphinx-psi-theme cloud_sptheme astropy-helpers python-graphviz graphviz sphinx -c conda-forge -c astropy -c psi4
+conda install sphinx-psi-theme cloud_sptheme sphinx-automodapi graphviz python-graphviz sphinx -c conda-forge -c psi4
 ```
-
