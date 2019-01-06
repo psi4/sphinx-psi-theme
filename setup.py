@@ -23,7 +23,7 @@ opts = dict(
     ],
 
     entry_points={
-        'sphinx_themes': [
+        'sphinx.html_themes': [
             'path = sphinx_psi_theme:get_theme_dir',
         ],
     },
