@@ -32,7 +32,7 @@ This module contains a few small sphinx extensions.
 import re
 import os.path
 
-__version__ = "1.0"
+__version__ = "1.1"
 
 
 def get_theme_dir():

@@ -64,7 +64,8 @@ def insert_toc(app, pagename, templatename, ctx, event_arg):
     #FIXME: there's probably a MUCH better / less broken way to do this
     path = os.path.split(os.path.splitext(ctx['pathto']('index'))[0])[1]
     #links.insert(len(links), (path, 'Table Of Contents', 'C', 'TOC'))
-    links.insert(len(links), (path, 'Table Of Contents', 'C', '<i class="fa fa-book fa-lg"></i>'))
+    #links.insert(len(links), (path, 'Table Of Contents', 'C', '<i class="fa fa-book fa-lg"></i>'))
+    links.insert(len(links), (app.config.master_doc, 'Table Of Contents', 'C', '<i class="fa fa-book fa-lg"></i>'))
 
 
 def setup(app):
